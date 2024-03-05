@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="2" parallel="tests">
+  <test name="TestChrome">
+	  <parameter name="BrowswerName" value="Chrome"></parameter>
+    <classes>
+      <class name="breakoutTaskClass61.BreakOutTask"/>
+      <class name="breakoutTaskClass61.BreakOutTask"/>
+    </classes>
+  </test> 
+  
+    <test name="TestFirefox">
+	  <parameter name="BrowswerName" value="Firefox"></parameter>
+    <classes>
+      <class name="breakoutTaskClass61.BreakOutTask"/>
+      <class name="breakoutTaskClass61.BreakOutTask"/>
+    </classes>
+  </test> 
+</suite> 
